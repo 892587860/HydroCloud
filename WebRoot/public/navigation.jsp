@@ -8,7 +8,7 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="index.jsp"><strong><i class="icon fa fa-plane"></i>HydroCloud</strong></a>
+         <a class="navbar-brand" href="index.html"><strong><i class="icon fa fa-plane"></i>HydroCloud</strong></a>
          <div id="sideNav" href="">
          	<i class="fa fa-bars icon"></i>
          </div>
@@ -43,22 +43,25 @@
 	<div class="sidebar-collapse">
 		<ul class="nav" id="main-menu">
 			<li>
-            	<a  href="siteMap.jsp"><i class="fa fa-dashboard"></i>站点地图</a>
+            	<a  href="index.html"><i class="fa fa-dashboard"></i>站点地图</a>
             </li>
             <li>
-            	<a href="linkMainPacket.jsp"><i class="fa fa-desktop"></i>链路维持报</a>
+            	<a href="linkMainPacket.html"><i class="fa fa-desktop"></i>链路维持报</a>
             </li> 
 			<li>
-				<a href="testPacket.jsp"><i class="fa fa-sitemap"></i>测试报</a>
+				<a href="testPacket.html"><i class="fa fa-sitemap"></i>测试报</a>
 			</li>
 			<li>
-				<a href="infoPacket.jsp"><i class="fa fa-qrcode"></i>均匀时段水文信息报</a>
+				<a href="infoPacket.html"><i class="fa fa-qrcode"></i>均匀时段水文信息报</a>
 			</li>
 			<li>
-				<a href="timingPacketTable.jsp"><i class="fa fa-table"></i>定时报</a>
+				<a href="timingPacketTable.html"><i class="fa fa-table"></i>定时报</a>
+              </li>
+			<li>
+				<a href="timingPacketChart.html"><i class="fa fa-table"></i>定时报图表</a>
               </li>
               <li>
-                  <a href="addedPacket.jsp"><i class="fa fa-edit"></i>遥测站加报报</a>
+                  <a href="addedPacket.html"><i class="fa fa-edit"></i>遥测站加报报</a>
               </li>
 
 
@@ -66,16 +69,19 @@
                   <a href="javacript:void(0)"><i class="fa fa-sitemap"></i>查询<span class="fa arrow"></span></a>
                   <ul class="nav nav-second-level">
                       <li>
-                          <a href="search/remoteRealTimeData.jsp">查询遥测站实时数据</a>
+                          <a href="search/remoteInfo.html">遥测站信息</a>
                       </li>
                       <li>
-                          <a href="search/remoteTimeData.jsp">查询遥测站时段数据</a>
+                          <a href="search/remoteRealTimeData.html">查询遥测站实时数据</a>
                       </li>
                       <li>
-                          <a href="search/remoteManualNumber.jsp">查询遥测站人工置数</a>
+                          <a href="search/remoteTimeData.html">查询遥测站时段数据</a>
                       </li>
                       <li>
-                          <a href="search/remoteFactorData.jsp">查询遥测站指定要素数据</a>
+                          <a href="search/remoteManualNumber.html">查询遥测站人工置数</a>
+                      </li>
+                      <li>
+                          <a href="search/remoteFactorData.html">查询遥测站指定要素数据</a>
                       </li>
                   </ul>
               </li>
@@ -83,13 +89,13 @@
                   <a href="javacript:void(0)"><i class="fa fa-fw fa-file"></i>设置<span class="fa arrow"></span></a>
                   <ul class="nav nav-second-level">
                       <li>
-                          <a href="settings/updateRemoteBasicConfig.jsp">修改遥测站基本配置表</a>
+                          <a href="settings/updateRemoteBasicConfig.html">修改遥测站基本配置表</a>
                       </li>
                       <li>
-                          <a href="settings/getRemoteBasicConfig.jsp">读取遥测站基本配置表</a>
+                          <a href="settings/getRemoteBasicConfig.html">读取遥测站基本配置表</a>
                       </li>
                       <li>
-                          <a href="settings/updateRemoteRunParam.jsp">修改遥测站运行参数配置表</a>
+                          <a href="settings/updateRemoteRunParam.html">修改遥测站运行参数配置表</a>
                       </li>
                   </ul>
               </li>

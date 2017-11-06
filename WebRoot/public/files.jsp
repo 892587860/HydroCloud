@@ -21,5 +21,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script src="assets/js/jquery-1.10.2.js"></script>
 
 <script src="assets/js/BaiduMap/index-drawMap.js"  charset="gbk"></script>
-<script src="assets/js/BaiduMap/points-sample-data.js"></script>
+<script src="assets/js/BaiduMap/points-sample-data.js"   charset="gbk"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Sj4GdvLlELGHB70KMMd5FNZbSLl1qpHg"></script>
